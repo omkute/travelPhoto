@@ -17,6 +17,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        supportActionBar ?.hide()
+
         val next = findViewById<ImageButton>(R.id.btnNext)
         val prev = findViewById<ImageButton>(R.id.btnPrevios)
         val placeName = findViewById<TextView>(R.id.textview)
